@@ -63,7 +63,7 @@ const ProductDetails = () => {
         <p className="h-3 bg-gray-200 rounded-full my-2" style={{ width: '30%' }}></p>
         <div className='flex items-start my-3 py-3 border-y'>
           {Array.from({ length: 5 }).map((_, index) => (
-            <div className="w-20 m-1">
+            <div className="w-20 m-1" key={index}>
               <p className="h-14 bg-gray-200 rounded-full"></p>
             </div>
           ))}

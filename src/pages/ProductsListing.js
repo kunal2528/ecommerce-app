@@ -169,7 +169,7 @@ const ProductsListing = () => {
       </div>
 
       {loading && (
-        <div className="animate-pulse grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 my-5 gap-16">
+        <div className="container mx-auto animate-pulse grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 my-5 gap-16">
           {Array.from({ length: 9 }).map((_, index) => (
             <div key={index} className="w-[270px] border rounded-lg">
               <div className="w-full h-[200px] bg-gray-200"></div>
